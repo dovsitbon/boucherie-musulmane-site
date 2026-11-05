@@ -1,0 +1,18 @@
+{
+  "_doc": "Horaires d'ouverture (heure de Paris). Jours : 1 = lundi … 7 = dimanche. Le dimanche est vide tant qu'il n'est pas confirmé. exceptions : fermetures ou horaires spéciaux datés (AAAA-MM-JJ), « closed » ou des créneaux (ex. veille de l'Aïd).",
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [["09:00", "19:30"]],
+    "2": [["09:00", "19:30"]],
+    "3": [["09:00", "19:30"]],
+    "4": [["09:00", "19:30"]],
+    "5": [["09:00", "19:30"]],
+    "6": [["09:00", "19:30"]],
+    "7": []
+  },
+  "sundayToConfirm": true,
+  "exceptions": [
+    { "date": "2026-12-25", "closed": true },
+    { "date": "2027-01-01", "closed": true }
+  ]
+}

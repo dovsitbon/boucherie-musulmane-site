@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "title": "Halal butcher in Amiens | Boucherie Musulmane, rue du Général Leclerc",
+    "description": "Neighbourhood halal butcher since 1988 at 53 rue du Général Leclerc, Amiens: lamb, beef, veal, chicken, merguez, family meat boxes and Eid orders. Click & collect, cut to order. Rated 4.8/5 on Google.",
+    "ogAlt": "The meat counter at Boucherie Musulmane in Amiens: lamb, beef, veal and chicken",
+    "legalTitle": "Legal notice | Boucherie Musulmane, Amiens"
+  },
+  "nav": {
+    "meats": "Our meat",
+    "packs": "Meat boxes",
+    "order": "Order",
+    "infos": "Visit",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "skip": "Skip to content",
+    "lang": "Language",
+    "orderCta": "Order for pickup",
+    "call": "Call",
+    "home": "Home, Boucherie Musulmane"
+  },
+  "intro": { "skip": "Skip" },
+  "announce": { "close": "Close banner" },
+  "hero": {
+    "eyebrow": "Halal butcher · Amiens",
+    "title": "The right choice, at the right price",
+    "sub": "The neighbourhood butcher on rue du Général Leclerc since 1988. Lamb, beef, veal and chicken, cut the way you like, with your order ready when you come in.",
+    "ctaOrder": "Order for pickup",
+    "ctaMeats": "See our meat",
+    "rating": "{value}/5 on Google",
+    "ratingCount": "{count} reviews",
+    "ratingNote": "Google rating checked on {date}"
+  },
+  "status": {
+    "open": "Open now",
+    "until": "until {time}",
+    "closed": "Closed right now",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "tiles": { "title": "At the counter", "photoSoon": "Photo coming soon" },
+  "categories": {
+    "agneau": "Lamb",
+    "boeuf": "Beef",
+    "veau": "Veal",
+    "volaille": "Chicken",
+    "merguez": "Merguez & sausages",
+    "preparations": "Cured & deli"
+  },
+  "services": {
+    "title": "How it works",
+    "items": {
+      "pickup": { "title": "Click & collect", "text": "Order here, pick up your bags at the time you choose." },
+      "cut": { "title": "Cut to order", "text": "Slices, tagine, couscous, mince, skewers: just tell us." },
+      "packs": { "title": "Family boxes", "text": "For the week, the barbecue or a big family table." },
+      "phone": { "title": "+33 9 83 49 94 40", "text": "A question or an urgent order? Give us a call." }
+    }
+  },
+  "meats": {
+    "eyebrow": "Our meat",
+    "title": "What's in the counter",
+    "lead": "Everyday cuts, prepared at the counter. Add them to your order, or come and choose in the shop.",
+    "all": "All",
+    "filter": "Filter by category",
+    "from": "from",
+    "perKg": "/ kg",
+    "perPiece": "each",
+    "priceShop": "Price per kg in store",
+    "pricePieceShop": "Price in store",
+    "shop": "In store",
+    "order": "To order",
+    "add": "Add to my order",
+    "addLabel": "Add {name} to my order",
+    "checked": "List checked on {date}. Prices vary with deliveries: the price shown in the shop applies."
+  },
+  "products": {
+    "gigotAgneau": { "name": "Leg of lamb", "note": "Whole, shortened or sliced" },
+    "epauleAgneau": { "name": "Lamb shoulder", "note": "Roasted, or diced for tagine" },
+    "cotelettesAgneau": { "name": "Lamb chops", "note": "For the pan and the barbecue" },
+    "coteFiletAgneau": { "name": "Double lamb loin chop", "note": "The tender cut for grilling" },
+    "collierAgneau": { "name": "Lamb neck", "note": "Couscous, tagine, chorba" },
+    "poitrineAgneau": { "name": "Lamb breast", "note": "Slow-cooked or grilled" },
+    "fauxFilet": { "name": "Sirloin", "note": "As a joint or as steaks" },
+    "rosbif": { "name": "Roast beef", "note": "Tied, ready to roast" },
+    "giteNoix": { "name": "Silverside", "note": "For roasts and steaks" },
+    "viandeHachee": { "name": "Minced beef", "note": "Minced to order" },
+    "collierBoeuf": { "name": "Beef neck", "note": "Stews, tagine, pot-au-feu" },
+    "platCotes": { "name": "Short ribs", "note": "For long, slow cooking" },
+    "escalopeVeau": { "name": "Veal escalopes", "note": "Sliced thin at the counter" },
+    "coteVeau": { "name": "Veal chop", "note": "Pan-fried" },
+    "epauleVeau": { "name": "Veal shoulder", "note": "Roasted or in a blanquette" },
+    "jarretVeau": { "name": "Veal shank", "note": "Osso buco, slow dishes" },
+    "poitrineVeau": { "name": "Veal breast", "note": "Stuffed or braised" },
+    "cuissePoulet": { "name": "Chicken thighs", "note": "Roasted or in a tagine" },
+    "pilonPoulet": { "name": "Chicken drumsticks", "note": "A favourite with kids" },
+    "ailePoulet": { "name": "Chicken wings", "note": "Marinated, roasted or grilled" },
+    "merguez": { "name": "Merguez", "note": "For the barbecue and couscous" },
+    "saucisses": { "name": "Sausages", "note": "Beef or chicken, depending on the day" },
+    "boeufFume": { "name": "Extra smoked beef", "note": "Sliced to order" },
+    "chorizoBoeuf": { "name": "Extra beef chorizo", "note": "Whole or sliced" },
+    "saucissonSec": { "name": "Dry beef sausage", "note": "Vacuum-packed, sold each" },
+    "foieGras": { "name": "Halal foie gras and pâtés", "note": "Jars and terrines, fine food shelf" }
+  },
+  "packs": {
+    "eyebrow": "Meat boxes",
+    "title": "One box, and the week is sorted",
+    "lead": "Put together with you, for the number of people and the budget you have in mind. Order ahead and we'll have it ready when you come.",
+    "price": "Price in store",
+    "from": "from",
+    "cta": "Order this box",
+    "ctaLabel": "Order the {name}",
+    "items": {
+      "famille": { "name": "Family box", "text": "A mix of lamb, beef and chicken to cook all week, cut and ready to put away." },
+      "barbecue": { "name": "Barbecue box", "text": "Merguez, skewers, lamb chops and chicken wings: enough to keep the grill going all afternoon." },
+      "mois": { "name": "Box of the month", "text": "A selection that changes with the seasons and deliveries. Ask us what's in it this month." }
+    }
+  },
+  "seasons": {
+    "eyebrow": "Celebrations",
+    "title": "Order early for the big days",
+    "lead": "For celebrations, orders open several weeks ahead. Book your meat, we take care of the cutting.",
+    "from": "From {date}",
+    "now": "Now",
+    "until": "until {date}",
+    "order": "Book",
+    "orderLabel": "Book for {name}",
+    "items": {
+      "aid": { "title": "Eid al-Adha", "text": "Book your sheep or your cuts: details are announced in the shop and here a few weeks before Eid." },
+      "ramadan": { "title": "Ramadan", "text": "Minced meat, lamb neck for chorba, merguez and skewers for iftar. Order the day before, it's ready before you break the fast." },
+      "finAnnee": { "title": "Year-end festivities", "text": "Roasts, legs of lamb, poultry and halal fine food for festive meals. Best ordered before 20 December." },
+      "barbecue": { "title": "Barbecue season", "text": "Merguez, lamb chops, skewers and barbecue boxes, ready for the weekend." }
+    }
+  },
+  "commitment": {
+    "eyebrow": "Since 1988",
+    "title": "A neighbourhood butcher, run properly",
+    "lead": "On rue du Général Leclerc, people come to us for the choice, the prices and the advice. Here's what doesn't change.",
+    "items": {
+      "fresh": { "title": "Freshness", "text": "Meat is cut at the counter through the day, as you ask for it, not weeks in advance." },
+      "origin": { "title": "Origin", "text": "The origin of every meat is shown in the shop. Ask us where it comes from: we'll tell you." },
+      "halal": { "title": "Halal", "text": "A halal butcher since 1988: it's on the sign above the door, and it's our trade." },
+      "cut": { "title": "Cutting", "text": "Thin or thick slices, pieces for tagine, beef minced in front of you: the butcher cuts it your way." }
+    },
+    "certified": "Halal certification: {body}"
+  },
+  "infos": {
+    "eyebrow": "Visit us",
+    "title": "Find the shop",
+    "address": "Address",
+    "hours": "Opening hours",
+    "access": "Getting here",
+    "accessText": "At 53 rue du Général Leclerc, Amiens. Tap “Directions” to come on foot, by bus or by car.",
+    "phone": "Phone",
+    "email": "Email",
+    "directions": "Directions",
+    "mapTitle": "Map: Boucherie Musulmane, 53 rue du Général Leclerc, Amiens",
+    "closed": "Closed",
+    "askUs": "Please call",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you order",
+    "items": [
+      { "q": "How far ahead should I order?", "a": "Order by 6 pm the day before to collect the next day, at the time of your choice. For meat boxes and large quantities, let us know two or three days ahead. For Eid, bookings open several weeks before." },
+      { "q": "Can you cut the meat the way I want?", "a": "Yes. Tell us in your order how you'd like it: sliced, diced for tagine or couscous, minced, or on skewers. Add a note if you have a preference, such as the thickness of the slices." },
+      { "q": "How do I pay?", "a": "You pay in the shop when you collect. Nothing is paid online: you see your meat before you pay." },
+      { "q": "Where does your meat come from?", "a": "The origin of every meat is shown in the shop, as the law requires. Ask us at the counter or by phone and we'll tell you where your cut comes from." },
+      { "q": "Is my order confirmed straight away?", "a": "You get a summary on screen, and by email if you give us your address. If something is missing or the time doesn't work, we'll call you." },
+      { "q": "Are you open on Sundays?", "a": "We're open Monday to Saturday, 9 am to 7.30 pm. For Sundays, please call +33 9 83 49 94 40 before coming." }
+    ]
+  },
+  "order": {
+    "eyebrow": "Click & collect",
+    "title": "Your order, ready on time",
+    "lead": "Choose your cuts, how you want them prepared and when you'll come by. You pay in the shop when you collect.",
+    "productsTitle": "Your items",
+    "product": "Item",
+    "quantity": "Quantity",
+    "unit": "Unit",
+    "units": { "kg": "kg", "piece": "piece", "pieces": "pieces" },
+    "cut": "Cut",
+    "cuts": {
+      "asIs": "As usual",
+      "slices": "Sliced",
+      "pieces": "Diced (tagine, couscous)",
+      "minced": "Minced",
+      "skewers": "On skewers",
+      "other": "Other (please specify)"
+    },
+    "detail": "Details",
+    "detailPh": "E.g. thin slices, shortened leg, for 6 people…",
+    "otherPh": "The item you're looking for",
+    "other": "Other item",
+    "packsGroup": "Meat boxes",
+    "addLine": "Add an item",
+    "removeLine": "Remove this item",
+    "pickupTitle": "Pickup in store",
+    "pickupLead": "Pickup at the earliest {hours} hours after ordering, during opening hours.",
+    "date": "Day",
+    "time": "Time",
+    "timePh": "Choose a time",
+    "contactTitle": "Your details",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "emailHint": "To receive a summary of your order.",
+    "message": "Message (optional)",
+    "messagePh": "A detail, a question…",
+    "required": "required",
+    "submit": "Send my order",
+    "sending": "Sending…",
+    "payNote": "No online payment: you pay in the shop when you collect.",
+    "callInstead": "Rather call?",
+    "whatsapp": "Also send on WhatsApp",
+    "errors": {
+      "lines": "Add at least one item with a quantity (and say what you need if you pick “Other”).",
+      "date": "Choose the pickup day.",
+      "time": "Choose the pickup time.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn't look right.",
+      "send": "Your order couldn't be sent. Try again, or call us: we'll take it by phone."
+    },
+    "done": {
+      "title": "Order sent",
+      "text": "The shop has received your order. We'll only call you if there's a problem.",
+      "pendingTitle": "One last step: a phone call",
+      "pendingText": "Your order is ready to pass on. Call us to confirm it, reading out this summary.",
+      "mail": "A summary has been sent to {email}.",
+      "again": "Place another order"
+    },
+    "mail": {
+      "subject": "New pickup order",
+      "title": "New pickup order",
+      "lines": "Items",
+      "pickup": "Pickup",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "lang": "Customer language",
+      "confirmSubject": "Your order at Boucherie Musulmane",
+      "confirmIntro": "Hello {name}, thank you for your order. Here's your summary:",
+      "confirmOutro": "See you at 53 rue du Général Leclerc, Amiens. You pay in the shop when you collect. To change anything: +33 9 83 49 94 40."
+    }
+  },
+  "footer": {
+    "tagline": "Neighbourhood halal butcher in Amiens, since 1988.",
+    "legal": "Legal notice",
+    "rights": "Boucherie Musulmane, Amiens",
+    "hours": "Monday to Saturday, 9 am – 7.30 pm"
+  },
+  "pages": {
+    "legal": {
+      "title": "Legal notice",
+      "pending": "to be completed",
+      "editor": "Publisher",
+      "editorText": "Boucherie Musulmane, 53 rue du Général Leclerc, 80000 Amiens, France. Phone: +33 9 83 49 94 40.",
+      "company": "Company name",
+      "siret": "SIRET",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "The details entered in the order form (name, phone, email, message) are used only to prepare your order and contact you about it. They are never sold or used for anything else. To have them deleted, call the shop.",
+      "cookies": "Cookies",
+      "cookiesText": "This site sets no advertising or analytics cookies. Only your language choice is remembered.",
+      "photos": "Photos",
+      "photosText": "Photos of the shop and its products. Reproduction is not allowed without permission."
+    }
+  },
+  "alt": {
+    "hero/vitrine-boucherie": "The butcher's chilled counter: beef, veal, lamb and chicken with their labels",
+    "boutique/comptoir-vitrine": "The counter at Boucherie Musulmane in Amiens",
+    "boutique/epicerie-fine-halal": "Basket of duck foie gras, duck breast and halal pâtés in jars",
+    "viandes/agneau-vitrine": "Legs, shoulders and necks of lamb in the counter",
+    "viandes/boeuf-vitrine": "Beef joints in the counter: roast beef, sirloin, silverside",
+    "viandes/veau-vitrine": "Veal cushion, chops and shoulder in the counter",
+    "viandes/volaille-vitrine": "Chicken thighs and wings in the counter",
+    "viandes/boeuf-fume-chorizo": "Smoked beef, beef chorizo and dry sausages in a wicker basket"
+  }
+}

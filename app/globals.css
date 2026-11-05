@@ -1,0 +1,422 @@
+@import "tailwindcss";
+
+@theme {
+  /* Charte tirée de l'enseigne (bandeau sombre, lettres rouges, « Halal ») et de la boutique
+     (frise de carreaux rouges sur faïence blanche) : bordeaux profond, crème, noir, vert sombre en touche. */
+  --color-bordeaux: #6b1e22;
+  --color-bordeaux-deep: #4e1519;
+  /* Rouge de l'enseigne : décor seulement (filets, frise), jamais pour du petit texte sur crème */
+  --color-sign: #c8494f;
+  --color-cream: #f5efe6;
+  --color-cream-deep: #ece3d5;
+  --color-white: #ffffff;
+  --color-ink: #161412;
+  /* Texte courant sur crème : 8,9:1 */
+  --color-muted: #4b443e;
+  --color-line: #dacfbf;
+  --color-green: #2f4a3a;
+
+  --font-body: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 6.5rem;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Arabe : Naskh pour le texte, Kufi pour les titres */
+  html[lang="ar"] body {
+    --font-body: var(--font-naskh), var(--font-inter), Tahoma, sans-serif;
+    --font-display: var(--font-kufi), var(--font-archivo), Tahoma, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.85;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-bordeaux);
+    color: var(--color-cream);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-bordeaux);
+    outline-offset: 3px;
+  }
+  .on-dark :focus-visible {
+    outline-color: var(--color-cream);
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  /* Titres « enseigne » : Archivo resserré, en capitales */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-stretch: 78%;
+    line-height: 0.98;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+  }
+  html[lang="ar"] .display {
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  .eyebrow {
+    font-family: var(--font-display);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    font-stretch: 90%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-bordeaux);
+  }
+  html[lang="ar"] .eyebrow {
+    letter-spacing: 0;
+    font-size: 0.875rem;
+  }
+  .nav-link {
+    font-family: var(--font-display);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    font-stretch: 85%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  html[lang="ar"] .nav-link {
+    letter-spacing: 0;
+    font-size: 0.9375rem;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3.25rem;
+    padding: 0.8rem 1.6rem;
+    font-family: var(--font-display);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    font-stretch: 88%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition:
+      background-color 0.35s var(--ease-soft),
+      color 0.35s var(--ease-soft),
+      border-color 0.35s var(--ease-soft);
+  }
+  html[lang="ar"] .btn,
+  html[lang="ar"] .btn-line {
+    letter-spacing: 0;
+    font-size: 0.9375rem;
+  }
+  .btn {
+    background: var(--color-bordeaux);
+    border: 1px solid var(--color-bordeaux);
+    color: var(--color-cream);
+  }
+  .btn:hover {
+    background: var(--color-bordeaux-deep);
+    border-color: var(--color-bordeaux-deep);
+  }
+  .btn.on-dark {
+    background: var(--color-cream);
+    border-color: var(--color-cream);
+    color: var(--color-bordeaux-deep);
+  }
+  .btn.on-dark:hover {
+    background: var(--color-white);
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-cream);
+  }
+  .btn-line.on-dark:hover {
+    background: var(--color-cream);
+    border-color: var(--color-cream);
+    color: var(--color-ink);
+  }
+  .btn[disabled] {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .link-line {
+    background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px;
+    padding-bottom: 0.15em;
+    transition: background-size 0.4s var(--ease-soft);
+  }
+  .link-line:hover {
+    background-size: 0 1px;
+  }
+
+  .field {
+    width: 100%;
+    border: 1px solid var(--color-line);
+    background: var(--color-white);
+    padding: 0.7rem 0.85rem;
+    min-height: 3rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    border-radius: 2px;
+    transition: border-color 0.3s;
+  }
+  select.field {
+    appearance: none;
+    background: var(--color-white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b1e22' stroke-width='1.6'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.75rem center / 1rem;
+    padding-inline-end: 2.25rem;
+    cursor: pointer;
+  }
+  [dir="rtl"] select.field {
+    background-position: left 0.75rem center;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-ink);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-bordeaux);
+  }
+  .field::placeholder {
+    color: #857a6f;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-line);
+    background: var(--color-white);
+    min-height: 2.75rem;
+    min-width: 4.5rem;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9375rem;
+    font-variant-numeric: tabular-nums;
+    border-radius: 2px;
+    cursor: pointer;
+    transition:
+      border-color 0.25s,
+      background-color 0.25s,
+      color 0.25s;
+  }
+  .chip:hover {
+    border-color: var(--color-ink);
+  }
+  .chip:has(input:checked),
+  .chip[aria-pressed="true"] {
+    border-color: var(--color-bordeaux);
+    background: var(--color-bordeaux);
+    color: var(--color-cream);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-bordeaux);
+    outline-offset: 2px;
+  }
+
+  .zoom {
+    position: relative;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 1.2s var(--ease-soft);
+  }
+  .zoom:hover img,
+  .group:hover .zoom img {
+    transform: scale(1.04);
+  }
+
+  /* Frise de carreaux, comme le mur de la boutique (carreaux rouges joints blancs) */
+  .frieze {
+    height: 14px;
+    background:
+      linear-gradient(var(--color-cream), var(--color-cream)) top / 100% 2px no-repeat,
+      linear-gradient(var(--color-cream), var(--color-cream)) bottom / 100% 2px no-repeat,
+      repeating-linear-gradient(90deg, var(--color-bordeaux) 0 26px, var(--color-cream) 26px 28px);
+  }
+  /* Faïence crème : quadrillage très léger */
+  .faience {
+    background-color: var(--color-cream);
+    background-image:
+      linear-gradient(rgba(107, 30, 34, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(107, 30, 34, 0.06) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  /* Emplacement de photo à venir : sobre, assumé */
+  .slot {
+    background-color: var(--color-cream-deep);
+    background-image: repeating-linear-gradient(135deg, rgba(22, 20, 18, 0.045) 0 1px, transparent 1px 14px);
+  }
+}
+
+html[lang="ar"] #hero-title {
+  font-size: clamp(2.5rem, 5.4vw, 4rem);
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 18px));
+}
+.reveal {
+  transition:
+    opacity 0.9s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.9s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.4s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.hero-in {
+  animation: hero-in 0.6s var(--ease-soft) both;
+}
+html.js:not(.intro-seen) .hero-in {
+  animation-delay: 0.95s;
+}
+@keyframes hero-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (1,2 s) : fond crème, un fin trait dessine l'enseigne et la devanture,
+   « BOUCHERIE MUSULMANE » s'y inscrit, fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-cream);
+  animation: intro-out 0.3s ease-out 0.9s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw var(--t, 0.5s) cubic-bezier(0.55, 0, 0.3, 1) var(--d, 0s) forwards;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-name {
+  opacity: 0;
+  animation: intro-name 0.35s var(--ease-soft) 0.42s forwards;
+}
+@keyframes intro-name {
+  from {
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.3s var(--ease-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

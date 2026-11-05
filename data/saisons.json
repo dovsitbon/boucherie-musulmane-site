@@ -1,0 +1,10 @@
+{
+  "_doc": "Les fêtes. Une fête n'apparaît sur le site qu'entre « show » et « to » (inclus), puis disparaît toute seule. « from » = début de la fête elle-même (affiché « à partir du … »). Dates des fêtes musulmanes indicatives : à confirmer chaque année. image : clé d'une photo de public/media (ex. « colis/aid ») ; si la photo n'existe pas encore, un emplacement sobre s'affiche.",
+  "items": [
+    { "id": "finAnnee", "show": "2026-11-01", "from": "2026-12-15", "to": "2026-12-31", "image": "boutique/epicerie-fine-halal" },
+    { "id": "ramadan", "show": "2027-01-15", "from": "2027-02-08", "to": "2027-03-09", "image": "viandes/boeuf-vitrine" },
+    { "id": "aid", "show": "2027-04-01", "from": "2027-05-16", "to": "2027-05-19", "image": "viandes/agneau-vitrine" },
+    { "id": "barbecue", "show": "2027-04-15", "from": "2027-05-01", "to": "2027-09-15", "image": "colis/barbecue" },
+    { "id": "finAnnee", "show": "2027-11-01", "from": "2027-12-15", "to": "2027-12-31", "image": "boutique/epicerie-fine-halal" }
+  ]
+}

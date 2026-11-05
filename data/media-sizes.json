@@ -1,0 +1,34 @@
+{
+ "hero/vitrine-boucherie": [
+  1600,
+  840
+ ],
+ "viandes/agneau-vitrine": [
+  560,
+  680
+ ],
+ "viandes/boeuf-fume-chorizo": [
+  1242,
+  935
+ ],
+ "viandes/boeuf-vitrine": [
+  600,
+  730
+ ],
+ "viandes/veau-vitrine": [
+  560,
+  600
+ ],
+ "viandes/volaille-vitrine": [
+  410,
+  560
+ ],
+ "boutique/comptoir-vitrine": [
+  1600,
+  1200
+ ],
+ "boutique/epicerie-fine-halal": [
+  1600,
+  1200
+ ]
+}

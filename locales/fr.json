@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "Boucherie halal à Amiens | Boucherie Musulmane, rue du Général Leclerc",
+    "description": "Boucherie halal de quartier depuis 1988 au 53 rue du Général Leclerc, à Amiens : agneau, bœuf, veau, volaille, merguez, colis familiaux et commandes pour l'Aïd. Commande à retirer, découpe à la demande. 4,8/5 sur Google.",
+    "ogAlt": "Vitrine de la Boucherie Musulmane à Amiens : agneau, bœuf, veau et volaille",
+    "legalTitle": "Mentions légales | Boucherie Musulmane, Amiens"
+  },
+  "nav": {
+    "meats": "Nos viandes",
+    "packs": "Colis",
+    "order": "Commander",
+    "infos": "Infos",
+    "menu": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "skip": "Aller au contenu",
+    "lang": "Langue",
+    "orderCta": "Commander à retirer",
+    "call": "Appeler",
+    "home": "Accueil, Boucherie Musulmane"
+  },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "hero": {
+    "eyebrow": "Boucherie halal · Amiens",
+    "title": "Le bon choix, au juste prix",
+    "sub": "La boucherie de quartier de la rue du Général Leclerc, depuis 1988. Agneau, bœuf, veau et volaille, coupés comme vous les voulez, et vos commandes prêtes à l'heure dite.",
+    "ctaOrder": "Commander à retirer",
+    "ctaMeats": "Voir nos viandes",
+    "rating": "{value}/5 sur Google",
+    "ratingCount": "{count} avis",
+    "ratingNote": "Note Google relevée le {date}"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "until": "jusqu'à {time}",
+    "closed": "Fermé en ce moment",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "tiles": {
+    "title": "Au comptoir",
+    "photoSoon": "Photo à venir"
+  },
+  "categories": {
+    "agneau": "Agneau",
+    "boeuf": "Bœuf",
+    "veau": "Veau",
+    "volaille": "Volaille",
+    "merguez": "Merguez & saucisses",
+    "preparations": "Préparations"
+  },
+  "services": {
+    "title": "La boucherie en pratique",
+    "items": {
+      "pickup": {
+        "title": "Commande à retirer",
+        "text": "Commandez ici, passez prendre vos sacs à l'heure choisie."
+      },
+      "cut": {
+        "title": "Découpe sur demande",
+        "text": "Tranches, tajine, couscous, haché, brochettes : dites-nous."
+      },
+      "packs": {
+        "title": "Colis familiaux",
+        "text": "Pour la semaine, le barbecue ou les grandes tablées."
+      },
+      "phone": {
+        "title": "09 83 49 94 40",
+        "text": "Une question, une commande urgente : appelez-nous."
+      }
+    }
+  },
+  "meats": {
+    "eyebrow": "Nos viandes",
+    "title": "Ce que vous trouvez en vitrine",
+    "lead": "Les morceaux de tous les jours, découpés au comptoir. Ajoutez-les à votre commande, ou passez les choisir en boutique.",
+    "all": "Tout",
+    "filter": "Filtrer par catégorie",
+    "from": "à partir de",
+    "perKg": "/ kg",
+    "perPiece": "/ pièce",
+    "priceShop": "Prix au kilo en boutique",
+    "pricePieceShop": "Prix en boutique",
+    "shop": "En boutique",
+    "order": "Sur commande",
+    "add": "Ajouter à ma commande",
+    "addLabel": "Ajouter {name} à ma commande",
+    "checked": "Liste relevée le {date}. Les prix changent selon les arrivages : le prix affiché en boutique fait foi."
+  },
+  "products": {
+    "gigotAgneau": {
+      "name": "Gigot d'agneau",
+      "note": "Entier, raccourci ou en tranches"
+    },
+    "epauleAgneau": {
+      "name": "Épaule d'agneau",
+      "note": "Au four, ou en morceaux pour le tajine"
+    },
+    "cotelettesAgneau": {
+      "name": "Côtelettes d'agneau",
+      "note": "Pour la poêle et le barbecue"
+    },
+    "coteFiletAgneau": {
+      "name": "Côte filet double d'agneau",
+      "note": "Le morceau tendre à griller"
+    },
+    "collierAgneau": {
+      "name": "Collier d'agneau",
+      "note": "Couscous, tajine, chorba"
+    },
+    "poitrineAgneau": {
+      "name": "Poitrine d'agneau",
+      "note": "À mijoter ou à griller"
+    },
+    "fauxFilet": {
+      "name": "Faux-filet",
+      "note": "En pièce ou en steaks"
+    },
+    "rosbif": {
+      "name": "Rosbif",
+      "note": "Ficelé, prêt à rôtir"
+    },
+    "giteNoix": {
+      "name": "Gîte à la noix",
+      "note": "Pour les rôtis et les steaks"
+    },
+    "viandeHachee": {
+      "name": "Viande hachée",
+      "note": "Hachée à la demande"
+    },
+    "collierBoeuf": {
+      "name": "Collier de bœuf",
+      "note": "Pot-au-feu, tajine, ragoûts"
+    },
+    "platCotes": {
+      "name": "Plat de côtes",
+      "note": "À mijoter longtemps"
+    },
+    "escalopeVeau": {
+      "name": "Noix de veau en escalopes",
+      "note": "Tranchées fines au comptoir"
+    },
+    "coteVeau": {
+      "name": "Côte de veau",
+      "note": "À la poêle"
+    },
+    "epauleVeau": {
+      "name": "Épaule de veau",
+      "note": "Rôtie ou en blanquette"
+    },
+    "jarretVeau": {
+      "name": "Jarret de veau",
+      "note": "Osso-buco, plats mijotés"
+    },
+    "poitrineVeau": {
+      "name": "Poitrine de veau",
+      "note": "Farcie ou mijotée"
+    },
+    "cuissePoulet": {
+      "name": "Cuisses de poulet",
+      "note": "Au four ou en tajine"
+    },
+    "pilonPoulet": {
+      "name": "Pilons de poulet",
+      "note": "Le préféré des enfants"
+    },
+    "ailePoulet": {
+      "name": "Ailes de poulet",
+      "note": "Marinées, au four ou au grill"
+    },
+    "merguez": {
+      "name": "Merguez",
+      "note": "Pour le barbecue et le couscous"
+    },
+    "saucisses": {
+      "name": "Saucisses",
+      "note": "Bœuf ou volaille, selon les jours"
+    },
+    "boeufFume": {
+      "name": "Bœuf fumé extra",
+      "note": "Tranché à la demande"
+    },
+    "chorizoBoeuf": {
+      "name": "Chorizo de bœuf extra",
+      "note": "En pièce ou en tranches"
+    },
+    "saucissonSec": {
+      "name": "Saucisson sec de bœuf",
+      "note": "Sous vide, à la pièce"
+    },
+    "foieGras": {
+      "name": "Foie gras et pâtés halal",
+      "note": "Bocaux et terrines, rayon épicerie fine"
+    }
+  },
+  "packs": {
+    "eyebrow": "Les colis",
+    "title": "Un colis, et la semaine est prête",
+    "lead": "Composés avec vous selon le nombre de personnes et votre budget. Commandez-les à l'avance, on les prépare pour l'heure de votre passage.",
+    "price": "Prix en boutique",
+    "from": "à partir de",
+    "cta": "Commander ce colis",
+    "ctaLabel": "Commander le {name}",
+    "items": {
+      "famille": {
+        "name": "Colis famille",
+        "text": "Un assortiment d'agneau, de bœuf et de volaille pour cuisiner toute la semaine, découpé et prêt à ranger."
+      },
+      "barbecue": {
+        "name": "Colis barbecue",
+        "text": "Merguez, brochettes, côtelettes et ailes de poulet : de quoi tenir le grill tout l'après-midi."
+      },
+      "mois": {
+        "name": "Colis du mois",
+        "text": "Une sélection qui change avec les saisons et les arrivages. Demandez-nous ce qu'il contient ce mois-ci."
+      }
+    }
+  },
+  "seasons": {
+    "eyebrow": "Les fêtes",
+    "title": "Commandez tôt pour les grands jours",
+    "lead": "Pour les fêtes, les commandes ouvrent plusieurs semaines avant. Réservez votre viande, on s'occupe de la découpe.",
+    "from": "À partir du {date}",
+    "now": "En ce moment",
+    "until": "jusqu'au {date}",
+    "order": "Réserver",
+    "orderLabel": "Réserver pour {name}",
+    "items": {
+      "aid": {
+        "title": "Aïd al-Adha",
+        "text": "Réservation du mouton ou de la découpe : les modalités sont annoncées en boutique et ici quelques semaines avant la fête."
+      },
+      "ramadan": {
+        "title": "Ramadan",
+        "text": "Viande hachée, collier pour la chorba, merguez et brochettes pour l'iftar. Commandez la veille, c'est prêt avant la rupture du jeûne."
+      },
+      "finAnnee": {
+        "title": "Fin d'année",
+        "text": "Rôtis, gigots, volailles et épicerie fine halal pour les repas de fêtes. Commandes conseillées avant le 20 décembre."
+      },
+      "barbecue": {
+        "title": "Saison du barbecue",
+        "text": "Merguez, côtelettes, brochettes et colis barbecue, préparés pour le week-end."
+      }
+    }
+  },
+  "commitment": {
+    "eyebrow": "Depuis 1988",
+    "title": "Une boucherie de quartier, tenue comme il faut",
+    "lead": "Rue du Général Leclerc, on vient chez nous pour le choix, les prix et le conseil. Voici ce qui ne change pas.",
+    "items": {
+      "fresh": {
+        "title": "La fraîcheur",
+        "text": "La viande est découpée au comptoir, au fil de la journée et de vos demandes, pas des semaines à l'avance."
+      },
+      "origin": {
+        "title": "La provenance",
+        "text": "L'origine de chaque viande est affichée en boutique. Demandez-nous d'où elle vient : on vous répond."
+      },
+      "halal": {
+        "title": "Le halal",
+        "text": "Boucherie halal depuis 1988, c'est écrit sur l'enseigne et c'est notre métier."
+      },
+      "cut": {
+        "title": "La découpe",
+        "text": "Tranches fines ou épaisses, morceaux pour le tajine, viande hachée devant vous : le boucher coupe à votre goût."
+      }
+    },
+    "certified": "Certification halal : {body}"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Nous trouver",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "access": "Accès",
+    "accessText": "Au 53 rue du Général Leclerc, à Amiens. Touchez « Itinéraire » pour venir à pied, en bus ou en voiture.",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "directions": "Itinéraire",
+    "mapTitle": "Carte : Boucherie Musulmane, 53 rue du Général Leclerc, Amiens",
+    "closed": "Fermé",
+    "askUs": "Nous consulter",
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de commander",
+    "items": [
+      {
+        "q": "Combien de temps à l'avance faut-il commander ?",
+        "a": "Commandez la veille avant 18 h pour un retrait le lendemain, à l'heure de votre choix. Pour les colis et les grosses quantités, prévenez-nous deux ou trois jours avant. Pour l'Aïd, les réservations ouvrent plusieurs semaines avant la fête."
+      },
+      {
+        "q": "Pouvez-vous découper la viande comme je veux ?",
+        "a": "Oui. Dites-nous dans la commande comment vous la voulez : en tranches, en morceaux pour le tajine ou le couscous, hachée, en brochettes. Ajoutez un mot si vous avez une préférence, l'épaisseur des tranches par exemple."
+      },
+      {
+        "q": "Comment se passe le paiement ?",
+        "a": "Vous réglez en boutique, au moment du retrait. Rien n'est payé en ligne : vous voyez votre viande avant de payer."
+      },
+      {
+        "q": "D'où vient votre viande ?",
+        "a": "L'origine de chaque viande est indiquée en boutique, comme la loi le demande. Posez-nous la question au comptoir ou par téléphone, on vous dit d'où vient le morceau que vous achetez."
+      },
+      {
+        "q": "Ma commande est-elle confirmée tout de suite ?",
+        "a": "Vous recevez un récapitulatif à l'écran, et par e-mail si vous donnez votre adresse. Si un produit manque ou si l'heure ne convient pas, nous vous appelons."
+      },
+      {
+        "q": "Êtes-vous ouverts le dimanche ?",
+        "a": "Nous sommes ouverts du lundi au samedi, de 9 h à 19 h 30. Pour le dimanche, appelez-nous au 09 83 49 94 40 avant de passer."
+      }
+    ]
+  },
+  "order": {
+    "eyebrow": "Commande à retirer",
+    "title": "Votre commande, prête à l'heure",
+    "lead": "Choisissez vos morceaux, la découpe et l'heure de passage. Vous payez en boutique, au retrait.",
+    "productsTitle": "Vos produits",
+    "product": "Produit",
+    "quantity": "Quantité",
+    "unit": "Unité",
+    "units": {
+      "kg": "kg",
+      "piece": "pièce",
+      "pieces": "pièces"
+    },
+    "cut": "Découpe",
+    "cuts": {
+      "asIs": "Comme d'habitude",
+      "slices": "En tranches",
+      "pieces": "En morceaux (tajine, couscous)",
+      "minced": "Hachée",
+      "skewers": "En brochettes",
+      "other": "Autre (préciser)"
+    },
+    "detail": "Précision",
+    "detailPh": "Ex. tranches fines, gigot raccourci, 6 personnes…",
+    "otherPh": "Le produit que vous cherchez",
+    "other": "Autre produit",
+    "packsGroup": "Colis",
+    "addLine": "Ajouter un produit",
+    "removeLine": "Retirer ce produit",
+    "pickupTitle": "Retrait en boutique",
+    "pickupLead": "Retrait au plus tôt {hours} h après votre commande, pendant les heures d'ouverture.",
+    "date": "Jour",
+    "time": "Heure",
+    "timePh": "Choisir une heure",
+    "contactTitle": "Vos coordonnées",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail (facultatif)",
+    "emailHint": "Pour recevoir le récapitulatif de votre commande.",
+    "message": "Message (facultatif)",
+    "messagePh": "Une précision, une question…",
+    "required": "obligatoire",
+    "submit": "Envoyer ma commande",
+    "sending": "Envoi en cours…",
+    "payNote": "Aucun paiement en ligne : vous réglez en boutique, au retrait.",
+    "callInstead": "Vous préférez téléphoner ?",
+    "whatsapp": "Envoyer aussi sur WhatsApp",
+    "errors": {
+      "lines": "Ajoutez au moins un produit, avec une quantité (et précisez le produit si vous choisissez « Autre »).",
+      "date": "Choisissez le jour du retrait.",
+      "time": "Choisissez l'heure du retrait.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "send": "La commande n'a pas pu partir. Réessayez, ou appelez-nous : nous la prenons par téléphone."
+    },
+    "done": {
+      "title": "Commande envoyée",
+      "text": "La boucherie a bien reçu votre commande. Nous vous appelons seulement s'il y a un souci.",
+      "pendingTitle": "Dernière étape : un appel",
+      "pendingText": "Votre commande est prête à être transmise. Appelez-nous pour la confirmer, en lisant ce récapitulatif.",
+      "mail": "Un récapitulatif vous a été envoyé à {email}.",
+      "again": "Passer une autre commande"
+    },
+    "mail": {
+      "subject": "Nouvelle commande à retirer",
+      "title": "Nouvelle commande à retirer",
+      "lines": "Produits",
+      "pickup": "Retrait",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "lang": "Langue du client",
+      "confirmSubject": "Votre commande à la Boucherie Musulmane",
+      "confirmIntro": "Bonjour {name}, merci pour votre commande. Voici le récapitulatif :",
+      "confirmOutro": "Nous vous attendons au 53 rue du Général Leclerc, à Amiens. Vous réglez sur place, au retrait. Pour toute modification : 09 83 49 94 40."
+    }
+  },
+  "footer": {
+    "tagline": "Boucherie halal de quartier à Amiens, depuis 1988.",
+    "legal": "Mentions légales",
+    "rights": "Boucherie Musulmane, Amiens",
+    "hours": "Lundi au samedi, 9 h – 19 h 30"
+  },
+  "pages": {
+    "legal": {
+      "title": "Mentions légales",
+      "pending": "à compléter",
+      "editor": "Éditeur du site",
+      "editorText": "Boucherie Musulmane, 53 rue du Général Leclerc, 80000 Amiens. Téléphone : 09 83 49 94 40.",
+      "company": "Raison sociale",
+      "siret": "SIRET",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Les informations saisies dans le formulaire de commande (nom, téléphone, e-mail, message) servent uniquement à préparer votre commande et à vous contacter à son sujet. Elles ne sont ni revendues ni utilisées à d'autres fins. Pour les faire supprimer, appelez la boutique.",
+      "cookies": "Cookies",
+      "cookiesText": "Le site ne dépose aucun cookie publicitaire ni de mesure d'audience. Seul votre choix de langue est mémorisé.",
+      "photos": "Photos",
+      "photosText": "Photos de la boutique et de ses produits. Toute reproduction est interdite sans accord."
+    }
+  },
+  "alt": {
+    "hero/vitrine-boucherie": "La vitrine réfrigérée de la boucherie : bœuf, veau, agneau et poulet avec leurs étiquettes",
+    "boutique/comptoir-vitrine": "Le comptoir et la vitrine de la Boucherie Musulmane, à Amiens",
+    "boutique/epicerie-fine-halal": "Panier de foie gras de canard, magret et pâtés halal en bocaux",
+    "viandes/agneau-vitrine": "Gigots, épaules et colliers d'agneau en vitrine",
+    "viandes/boeuf-vitrine": "Pièces de bœuf en vitrine : rosbif, faux-filet, gîte",
+    "viandes/veau-vitrine": "Noix, côtes et épaule de veau en vitrine",
+    "viandes/volaille-vitrine": "Cuisses et ailes de poulet en vitrine",
+    "viandes/boeuf-fume-chorizo": "Bœuf fumé, chorizo de bœuf et saucissons secs dans un panier en osier"
+  }
+}

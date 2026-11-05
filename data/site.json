@@ -1,0 +1,20 @@
+{
+  "_doc": "Coordonnées et réglages de la boutique. whatsapp : numéro de portable au format international sans + (ex. 33612345678) ; vide = pas de bouton WhatsApp. email : adresse de la boutique (affichée sur le site si remplie). rating : note Google relevée à la main, à mettre à jour (checked = date du relevé).",
+  "name": "Boucherie Musulmane",
+  "fullName": "Boucherie Musulmane – boucherie halal à Amiens",
+  "nameAr": "الجزارة الإسلامية",
+  "url": "https://boucherie-musulmane-amiens.vercel.app",
+  "since": 1988,
+  "phone": "09 83 49 94 40",
+  "phoneIntl": "+33983499440",
+  "whatsapp": "",
+  "email": "",
+  "address": { "street": "53 rue du Général Leclerc", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.8885, "lng": 2.2905 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Boucherie+Musulmane+53+rue+du+G%C3%A9n%C3%A9ral+Leclerc+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=53+rue+du+G%C3%A9n%C3%A9ral+Leclerc,+80000+Amiens&z=16&output=embed",
+  "rating": { "value": 4.8, "count": 252, "source": "Google", "checked": "2026-11-05" },
+  "halal": { "certified": false, "body": "", "_doc": "Ne citer un organisme de certification que s'il est confirmé par la boutique : certified true + body (nom de l'organisme)." },
+  "order": { "leadHours": 24, "cutoff": "18:00", "slotMinutes": 30, "maxPerLine": 50, "_doc": "leadHours : délai minimum entre la commande et le retrait (à confirmer). cutoff : heure limite affichée dans le bandeau (« commandez la veille avant 18 h », à confirmer)." },
+  "legal": { "company": "", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

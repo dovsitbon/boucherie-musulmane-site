@@ -1,0 +1,46 @@
+{
+  "_doc": "Nos viandes et nos colis. Noms et descriptions : locales/*.json → products.<id> et packs.items.<id>. priceKg : prix au kilo en euros (null = « prix au kilo en boutique ») ; pour les produits à la pièce (unit piece), prix à la pièce. from : true = afficher « à partir de ». unit : kg ou piece (quantité proposée dans le formulaire). availability : shop (en boutique) ou order (sur commande). photo : clé de la photo dans public/media (ex. viandes/gigot-agneau) ; tant qu'elle n'existe pas, la carte reprend la photo de sa catégorie ou un emplacement sobre. Liste relevée sur les étiquettes de la vitrine (photo de la fiche Google) : à compléter et à faire valider par la boutique.",
+  "checked": "2026-11-05",
+  "categories": [
+    { "id": "agneau", "photo": "viandes/agneau-vitrine", "items": ["gigotAgneau", "epauleAgneau", "cotelettesAgneau", "coteFiletAgneau", "collierAgneau", "poitrineAgneau"] },
+    { "id": "boeuf", "photo": "viandes/boeuf-vitrine", "items": ["fauxFilet", "rosbif", "giteNoix", "viandeHachee", "collierBoeuf", "platCotes"] },
+    { "id": "veau", "photo": "viandes/veau-vitrine", "items": ["escalopeVeau", "coteVeau", "epauleVeau", "jarretVeau", "poitrineVeau"] },
+    { "id": "volaille", "photo": "viandes/volaille-vitrine", "items": ["cuissePoulet", "pilonPoulet", "ailePoulet"] },
+    { "id": "merguez", "photo": "viandes/merguez", "items": ["merguez", "saucisses"] },
+    { "id": "preparations", "photo": "viandes/boeuf-fume-chorizo", "items": ["boeufFume", "chorizoBoeuf", "saucissonSec", "foieGras"] }
+  ],
+  "items": {
+    "gigotAgneau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/gigot-agneau" },
+    "epauleAgneau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/epaule-agneau" },
+    "cotelettesAgneau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/cotelettes-agneau" },
+    "coteFiletAgneau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/cote-filet-agneau" },
+    "collierAgneau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/collier-agneau" },
+    "poitrineAgneau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/poitrine-agneau" },
+    "fauxFilet": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/faux-filet" },
+    "rosbif": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/rosbif" },
+    "giteNoix": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/gite-noix" },
+    "viandeHachee": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/viande-hachee" },
+    "collierBoeuf": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/collier-boeuf" },
+    "platCotes": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/plat-de-cotes" },
+    "escalopeVeau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/escalope-veau" },
+    "coteVeau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/cote-veau" },
+    "epauleVeau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/epaule-veau" },
+    "jarretVeau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/jarret-veau" },
+    "poitrineVeau": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/poitrine-veau" },
+    "cuissePoulet": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/cuisse-poulet" },
+    "pilonPoulet": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/pilon-poulet" },
+    "ailePoulet": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/aile-poulet" },
+    "merguez": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/merguez" },
+    "saucisses": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/saucisses" },
+    "boeufFume": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/boeuf-fume-chorizo" },
+    "chorizoBoeuf": { "priceKg": null, "from": true, "unit": "kg", "availability": "shop", "photo": "viandes/chorizo-boeuf" },
+    "saucissonSec": { "priceKg": null, "from": true, "unit": "piece", "availability": "shop", "photo": "viandes/saucisson-sec" },
+    "foieGras": { "priceKg": null, "from": true, "unit": "piece", "availability": "shop", "photo": "boutique/epicerie-fine-halal" }
+  },
+  "packs": [
+    { "id": "famille", "price": null, "from": true, "availability": "order", "photo": "colis/famille" },
+    { "id": "barbecue", "price": null, "from": true, "availability": "order", "photo": "colis/barbecue" },
+    { "id": "mois", "price": null, "from": true, "availability": "order", "photo": "colis/du-mois" }
+  ],
+  "cuts": ["asIs", "slices", "pieces", "minced", "skewers", "other"]
+}
